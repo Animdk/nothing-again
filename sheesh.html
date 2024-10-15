@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unique Modern Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #4b6cb7, #182848);
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(145deg, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url('https://source.unsplash.com/1600x900/?abstract');
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            animation: fadeIn 3s ease-in-out forwards;
+            opacity: 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #f0f0f0;
+            margin-top: 10px;
+            animation: slideIn 2s ease-out 1s forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        section {
+            padding: 50px;
+            background-color: #10152b;
+        }
+
+        .card {
+            background-color: #182848;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+        }
+
+        .card-title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #dcdcdc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0f1222;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: 2px solid #ffffff;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 25px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ffffff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>I LOVE YOU </h1>
+        <h2>AEISHA NADINE ADELINE</h2>
+        <a href="#about" class="btn">Click This</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 30px;">About Us</h2>
+    <div style="display: flex; justify-content: space-around;">
+        <div class="card">
+            <h3 class="card-title">Sorry</h3>
+            <p class="card-text">Sorry For Misunderstanding Sometimes</p>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Thankyou</h3>
+            <p class="card-text">Thank you for being the incredible person you are—so kind, strong, and beautiful inside and out. I’m so lucky to have you by my side, and I can’t wait for all the memories we’ll create together.</p>
+        </div>
+        <div class="card">
+            <h3 class="card-title">GoodNight</h3>
+            <p class="card-text">SLEEP WELL </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>THIS IS NOTHING WKWK</p>
+</footer>
+
+</body>
+</html>
